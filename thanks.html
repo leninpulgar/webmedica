@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Landing WebMedica</title>
+    <!-- CSS -->
+        <!-- Bootstrap-->
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+        
+        <!--Owl Carousel-->
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css">
+        
+        <!-- Style -->
+        <link rel="stylesheet" href="css/style.css">
+        
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
+        
+        <!-- MailChimp -->
+        <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    
+    
+    <div class="main-thanks">
+        
+        <div class="navigation">
+            
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2"></div>
+                
+                <div class="blue col-sm-8">
+                    <div class="logo center-div"></div>
+                    <h1>¡FELICIDADES!</h1>
+                    <h2>ESTÁS A SÓLO UN PASO DE PROBAR <br>EL SISTEMA WEBMÉDICA PARA PROFESIONALES</h2>
+                    <p>En las próximas horas tomaremos contacto para darte las instrucciones del acceso a WebMédica.</p>
+                </div>
+                
+            <div class="col-sm-2"></div>
+            </div>
+        </div>
+        
+    </div>
+    
+    
+    <!--F O O T E R-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <h2 class="logo-footer">
+                    <div class="invisible">WebMédica</div>
+                </h2>
+                
+            </div>
+            <div class="row">
+                    <div class="col-sm-4"></div>
+                <div class="col-sm-4">
+                    <div class="row">
+                        <div class="col-sm-6"><p>www.webmedica.cl</p></div>
+                        <div class="col-sm-6"><p>+56 9 99788755</p></div>
+                    </div>
+                    
+                </div>
+                <div class="col-sm-4"></div>
+                </div>
+        </div>
+    </footer>
+    
+    <!-- JS -->
+        <!-- JQuery -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <!-- Bootstrap -->
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <!-- Owl Carousel -->
+        <script type="text/javascript" src="/js/owl.carousel.js"></script>
+        <!-- Custom JS -->
+        <!--<script type="text/javascript" src="js/customjs.js"></script>-->
+         <script type="text/javascript">
+                $(document).ready(function() {
+              var owl = $('.owl-carousel');
+              owl.owlCarousel({
+                items: 6,
+                loop: true,
+                margin: 10,
+                autoplay: true,
+                autoplayTimeout: 2000,
+                autoplayHoverPause: true
+              });
+              $('.play').on('click', function() {
+                owl.trigger('play.owl.autoplay', [1000])
+              })
+              $('.stop').on('click', function() {
+                owl.trigger('stop.owl.autoplay')
+              })
+            })
+         </script>
+         
+         <!--Scroll Reveal-->
+         <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+            <script>
+            /*global ScrollReveal*/
+            /*global sr*/
+            // JavaScript Scroll Reveal JS
+            window.sr = ScrollReveal({reset:true});
+            sr.reveal('.foo');
+            sr.reveal('.bar');
+            
+            // interval and custom config passed to reveal
+            sr.reveal('.box', { duration: 2000 }, 50);
+            
+            </script>
+            
+        <!--Smooth Scrolling-->
+        <script type="text/javascript" src="js/customjs.js"></script>
+        
+        <!-- Facebook Pixel Code -->
+        <script>
+          !function(f,b,e,v,n,t,s)
+          {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+          n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+          if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+          n.queue=[];t=b.createElement(e);t.async=!0;
+          t.src=v;s=b.getElementsByTagName(e)[0];
+          s.parentNode.insertBefore(t,s)}(window, document,'script',
+          'https://connect.facebook.net/en_US/fbevents.js');
+          fbq('init', '157734064844959');
+          fbq('track', 'PageView');
+        </script>
+        <noscript><img height="1" width="1" style="display:none"
+          src="https://www.facebook.com/tr?id=157734064844959&ev=PageView&noscript=1"
+        /></noscript>
+        <!-- End Facebook Pixel Code -->
+</body>
+</html>

@@ -1,0 +1,347 @@
+/* Developed by: Lenin Pulgar
+ * Contact: lenindpulgar@gmail.com | +56 9 4186 3554 | www.wicstudio.com
+ * Designed by: Juliany Sanchez
+ */
+ 
+ *{
+     margin:0;
+     padding:0;
+ }
+ 
+ body{
+     font-size:12px;
+     font-family:'Montserrat';
+ }
+ 
+/*Generales*/
+ h1{
+     font-weight:bold;
+}
+.nopadding-r{
+    padding-right:0;
+}
+.nopadding-l{
+    padding-left:0;
+}
+.relative{
+    position:relative;
+}
+.hidden-overflow{
+    overflow:hidden;
+}
+ 
+/*Main*/
+.main{
+    /* The image used */
+    background-image: url('../img/front-image.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /*Font Color*/
+    color:#fff;
+}
+ 
+/*Navigation*/
+.logo{
+     display:block;
+     background:url('../img/logo-webmedica.png') center no-repeat;
+     background-color:#fff;
+     border-radius:0 0 5px 5px;
+     width:300px;
+     height:120px;
+ }
+ 
+ /*Headlines and Paragraphs*/
+ .main-headline{
+     margin-top:2em;
+     font-size:3.5em;
+ }
+ .help-paragraph{
+     margin-top:1.5em;
+     font-size:1.2em;
+ }
+ .text-center{
+     padding-top:2em;
+     padding-bottom:2em;
+     font-weight:bold;
+     font-size:1.5em;
+     margin:0 auto;
+ }
+ /*Form*/
+ input[type=text]{
+     display:block;
+     width:100%;
+     border-radius:5px;
+     border:0;
+     padding:.5em 1em .5em 1em;
+ }
+ .center-form{
+     margin-bottom:2em;
+ }
+ 
+ .cta{
+     background-color:#f29f28;
+     border-radius:5px;
+     margin-top:1em;
+     border:0;
+     color:#000;
+     font-weight:bold;
+     padding:1.2em;
+ }
+ /*Form*/
+ .button{
+     background-color:#f29f28!important;
+     width:100% !important;
+     font-size:1.2em!important;
+     font-weight:bold!important;
+     color:#000!important;
+ }
+
+
+/*SECTION 2*/
+.section-2{
+    color:#003b75;
+    padding-bottom:2em;
+}
+.section-2 h2{
+    font-weight:bold;
+    margin-top:2em;
+    margin-bottom:1.5em;
+}
+.section-2 ul{
+    margin-left:2em;
+}
+.section-2 li{
+    font-size:1.2em;
+    padding-top:.5em;
+    list-style-type:none;
+}
+.section-2 li:before{
+    content:'';
+    display:inline-block;
+    width:25px;
+    height:25px;
+    background:url('../img/check.png') center no-repeat;
+    background-size:contain;
+    vertical-align:middle;
+    margin-right:1em;
+}
+/*.tablet{
+    display:block;
+    background:url('../img/tabletweb.png') center no-repeat;
+    width:100%;
+    height:400px;
+    position:absolute;
+    right:0;
+    bottom:0;
+}*/
+.tabletimg{
+    position:absolute;
+    bottom:-150px;
+    z-index:-1;
+    left:-100px;
+    width:180%;
+    
+}
+
+/*SECTION 3*/
+.section-3{
+    background-color:#003b75;
+    color:#fff;
+    z-index:10;
+    position:relative;
+    padding-bottom:3em;
+}
+.section-3 h2{
+    text-align:center;
+    font-weight:bold;
+    margin:0 auto;
+    margin-top:2em;
+    margin-bottom:2em;
+    z-index:12;
+    position:relative;
+}
+.section-3 h3{
+    font-weight:bold;
+    font-size:2em;
+    z-index:12;
+    position:relative;
+    margin-bottom:1.5em;
+}
+.section-3 p{
+    font-size:1.2em;
+    z-index:12;
+    position:relative;
+    margin-bottom:1.5em;
+}
+
+/*Macbook WebMédica*/
+.macmedica{
+    display:block;
+    background:url('../img/laptop.png') center no-repeat;
+    background-size:contain;
+    background-position-x:-100px;
+    margin-top:-50px;
+    width:100%;
+    height:774px;
+    z-index:11;
+    position:relative;
+}
+
+/*Section 4*/
+.logocenter{
+    display:block;
+    margin:0 auto;margin-top:2em;margin-bottom:2em;
+    width:250px;
+    height:150px;
+    background:url('../img/logo-webmedica.png') center no-repeat;
+    background-size:contain;
+}
+
+.section-4 .center{
+    text-align:center;
+    font-size:1.2em;
+}
+.section-4 p{
+    margin-bottom:2em;
+    padding-bottom:2em;
+}
+
+/*Section 5*/
+.section-5{
+    background-color:#76ca96;
+    background:url('../img/section-5.png') center no-repeat;
+    background-size:cover;
+    color:#fff;
+    z-index:10;
+    position:relative;
+    padding-bottom:3em;
+}
+
+.section-5 h2{
+    font-size:2.5em;
+    margin-top:2em;
+    margin-bottom:1.5em;
+}
+.section-5 p{
+    font-size:1.2em;
+    color:#fff;
+    margin-bottom:2em;
+}
+
+.button-cta{
+     background-color:#f29f28;
+     border-radius:5px;
+     border:0;
+     color:#fff;
+     font-weight:bold;
+     padding:1.2em;
+ }
+ 
+ /*F O O T E R*/
+ footer{
+     background-color:#003b75;
+     padding:2em auto 2em auto;
+     color:#fff;
+     text-align:center;
+ }
+ .logo-footer{
+     display:block;
+     margin:1.5em auto;
+     width:201px;
+     height:61px;
+     background:url('../img/logo-webmedica-footer.png') center no-repeat;
+ }
+ 
+ .trust-carousel > div{
+     height:70px;
+ }
+ 
+ .image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8{
+     display:block;
+     width:auto;
+     height:70px;
+ }
+ .image1{
+     background:url('../img/carousel/1.png') center no-repeat;background-size:contain;
+ }
+ .image2{
+     background:url('../img/carousel/2.png') center no-repeat;background-size:contain;
+ }
+ .image3{background:url('../img/carousel/3.png') center no-repeat;background-size:contain;}
+ .image4{background:url('../img/carousel/4.png') center no-repeat;background-size:contain;}
+ .image5{background:url('../img/carousel/5.jpg') center no-repeat;background-size:contain;}
+ .image6{background:url('../img/carousel/6.png') center no-repeat;background-size:contain;}
+ .image7{background:url('../img/carousel/7.png') center no-repeat;background-size:contain;}
+ .image8{background:url('../img/carousel/8.png') center no-repeat;background-size:contain;}
+ 
+/* * * * * * * *
+ * Thanks Web  *
+ * * * * * * * */
+ .center-div{margin:0 auto}
+ .blue{display:block;width:100%;height:auto;
+ background-color:#003b75;color:#fff;text-align:center;margin-top:10em;
+ }
+ .blue h1{
+     margin:1.2em auto;
+ }
+ .blue h2{
+     margin:1.2em auto;
+     font-size:1.8em;
+     font-weight:bold;
+ }
+ .blue p{
+     margin:1.2em auto;
+     font-size:1.5em;
+     padding-bottom:1.5em;
+ }
+ .main-thanks{
+    /* The image used */
+    background-image: url('../img/front-image.jpg');
+
+    /* Full height */
+    height: 100vh; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /*Font Color*/
+    color:#fff;
+}
+ 
+ /* * * * * * * * *
+  * Media Queries *
+  * * * * * * * * */
+
+@media (max-width: 576px){
+    .section-2{height:600px;}
+    .nopadding-r{
+        padding-right:15px;
+    }.nopadding-l{padding-left:15px;}.padding-r-m{padding-right:30px;}
+    .macmedica {
+    background-position-x: -40px;
+    margin-top: -50px;
+    height: 274px;
+    }
+    .main-headline {
+    font-size: 2.5em;
+    }
+}
+
+@media (min-width: 768px){
+    .minus-size{
+    padding-right:15em;
+    padding-left:15em;
+}
+}
+
